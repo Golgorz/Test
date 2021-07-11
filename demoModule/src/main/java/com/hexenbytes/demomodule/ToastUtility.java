@@ -3,6 +3,8 @@ package com.hexenbytes.demomodule;
 import android.content.Context;
 import android.widget.Toast;
 
+import com.hexenbytes.demomoduledependency.Constants;
+
 public class ToastUtility {
 
         public static Toast initializeToast(Context context, Toast toast, String res) {
@@ -16,6 +18,6 @@ public class ToastUtility {
             }
         }
         public static void testModel() {
-            System.out.print("VERSION 1.0.1");
+            System.out.print(Constants.APP_URL);
         }
 }

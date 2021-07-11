@@ -33,6 +33,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/demoModuleDependency/src/main/java/com/hexenbytes/demomoduledependency/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/releases/com/hexenbytes/demomodule/maven-metadata.xml">
           <value>
             <set />
