@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hexenbytes",
+    "module": "demomodule",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "3np6v75m6fdh5munqi7kd6zpom"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "demomodule-1.0.2.aar",
+          "url": "demomodule-1.0.2.aar",
+          "size": 33797,
+          "sha512": "5afa52fb20742a2f3c7237ec1f9abfba9aafb9dbaa609d62849900c2c557372e1aee91974dc8036fec2591ccfaeb6e49724789152cee1db0947b39896a6f53a6",
+          "sha256": "25ff8bc69ba63aa0a05c5a708d8807870cdc61dec203a27b5b5258b50bc715bd",
+          "sha1": "f3645d9c830067499dd2e07e9b50280b43fdcf76",
+          "md5": "b71a1f13bf129b78be5a969e824bc3dd"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "Test",
+          "module": "demoModuleDependency",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "demomodule-1.0.2.aar",
+          "url": "demomodule-1.0.2.aar",
+          "size": 33797,
+          "sha512": "5afa52fb20742a2f3c7237ec1f9abfba9aafb9dbaa609d62849900c2c557372e1aee91974dc8036fec2591ccfaeb6e49724789152cee1db0947b39896a6f53a6",
+          "sha256": "25ff8bc69ba63aa0a05c5a708d8807870cdc61dec203a27b5b5258b50bc715bd",
+          "sha1": "f3645d9c830067499dd2e07e9b50280b43fdcf76",
+          "md5": "b71a1f13bf129b78be5a969e824bc3dd"
+        }
+      ]
+    }
+  ]
+}
