@@ -33,6 +33,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/releases/com/hexenbytes/demomodule/maven-metadata.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Greenlight/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Greenlight/app/src/main/java/org/greenlightmedic/greenlight/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Greenlight/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

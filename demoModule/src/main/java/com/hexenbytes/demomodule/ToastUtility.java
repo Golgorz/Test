@@ -15,4 +15,7 @@ public class ToastUtility {
                 toast.cancel();
             }
         }
+        public static void testModel() {
+            System.out.print("VERSION 1.0.1");
+        }
 }
