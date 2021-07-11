@@ -1,0 +1,19 @@
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId 'com.hexenbytes'
+                artifactId 'demomodule'
+                version '1.0.0'
+            }
+        }
+        repositories {
+            maven {
+                name 'GitHubMavenLocal'
+                url "${project.rootDir}/releases"
+            }
+        }
+    }
+
+}
