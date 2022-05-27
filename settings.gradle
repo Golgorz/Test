@@ -2,3 +2,4 @@ rootProject.name = "Test"
 include ':app'
 include ':demoModule'
 include ':demoModuleDependency'
+include ':kotlinmultiplatformsharedmodule'
