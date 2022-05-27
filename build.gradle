@@ -16,6 +16,18 @@ allprojects {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+        mavenLocal()
+        maven {
+            name = "Test"
+            url = uri("https://maven.pkg.github.com/Golgorz/Test")
+            def propsFile = rootProject.file('github.properties')
+            def props = new Properties()
+            props.load(new FileInputStream(propsFile))
+            credentials {
+                username = props['username']
+                password = props['token']
+            }
+        }
     }
 }
 

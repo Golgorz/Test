@@ -58,6 +58,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../IberdrolaEScopia/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../IberdrolaEScopia/app/src/main/java/com/iberdrola/clientes/presentation/views/productos/productodetalle/DetalleProductoPlanActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../IberdrolaEScopia/modules/core/src/main/java/com/iberdrola/core/constants/GlobalConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../IberdrolaEScopia/version.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../IberdrolaEScopia2/version.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
